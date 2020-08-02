@@ -4,11 +4,67 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Finger+Paint&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <!----- TOOL BAR ----->
+    <header>Gaio</header>
+    <a id="back-link1" class="back" href="#"><img src="img/back.svg"></a>
+    <a id="back-link2" class="back" href="#"><img src="img/back.svg"></a>
+    <!----- SCREEN 1 ----->
+    <div id="front-layer1">
+      <img src="img/gaioGraphic.svg">
+      <p>
+        ¡Hola! mi nombre es Gaius Julius Caesar pero mis amigos 
+        me dicen Gaio. Hoy te ayudaré a comunicarte con quien
+        desees (a pesar de la distancia).
+      </p>
+      <br><br><br>
+      <a href="#" id="open">DESCUBRE CÓMO</a>
     </div>
+    <!----- OVERLAY WINDOW ----->
+    <div id="overlay">
+      <div id="flex" class="flex" >
+        <div class="content-overlay">
+          <div class="close-box flex">
+            <span id="close" class="close">&times;</span>
+          </div>
+          <div class="overlay-body">
+            <p>
+              Cuando fui emperador de Roma, me comunicaba a través
+              de un <strong>código secreto</strong>. Mi truco era <strong>reemplazar </strong> cada una
+              de las letras del mensaje original por otras que estén 
+              una posición fija más adelante <strong>(offset)</strong>.<br><br>
+              Es decir si elegía un <strong>offset=2</strong> y quería decir <strong>"hola"</strong> mi
+              mensaje cifrado era <strong>"jqnc"</strong>. <strong>Porque 2 posiciones adelante
+                de "h" está "j"</strong>, 2 posiciones adelante de "o" está "q" y 
+              así sucesivamente.<br><br>
+              <strong>Ahora que ya sabes como te ayudaré ¡cifremos un mensaje 
+                juntos y enviáselo a quien quieras! </strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <button type="button" id="start" class="btn">START</button>
+    <!----- SCREEN 2 ----->
+    <form id="front-layer2" class="front">
+      <label class="txt1">Ingrese un offset (número de desplazamiento):</label>
+      <input type="number" id="input-offset">
+      <br><br>
+      <label class="txt1">Ingrese su mensaje:</label>
+      <textarea spellcheck="false" id="input-txt" class="txt-box"></textarea>
+    </form>
+    <button type="button" id="erase-btn" class="btn-img"><img src="img/eraser.svg"></button>
+    <button type="button" id="encode-btn" class="btn">CIFRAR</button>
+    <button type="button" id="decode-btn" class="btn">DESCIFRAR</button>
+    <!----- SCREEN 3 ----->
+    <form id="front-layer3" class="front">
+      <label class="txt2">Su nuevo mensaje es:</label>
+      <textarea spellcheck="false" id="new-msg" class="txt-box"></textarea>
+    </form>
+    <button type="button" id="copy-btn" class="btn-img"><img src="img/copy.svg" alt=""></button>
     <script src="index.js" type="module"></script>
   </body>
 </html>
