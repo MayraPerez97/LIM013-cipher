@@ -64,6 +64,6 @@ A través de un mensaje cifrado se puede expresar un sentimiento hacia alguien q
 
 * Sin embargo, se utilizó figma para esbozar el posible diseño de la página, las siguientes imágenes muestran este resultado:
 
-![Pantalla 1 Figma](img/Screen1.jpg)
-![Ventana modal Figma](img/Overlay.jpg)
-![Pantalla 2 Figma](img/Screen2.jpg)
+![Pantalla 1 Figma](src/img/01.jpg)
+![Ventana modal Figma](src/img/011.jpg)
+![Pantalla 2 Figma](src/img/02.jpg)
