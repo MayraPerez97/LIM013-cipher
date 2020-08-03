@@ -27,7 +27,7 @@
 * Introduce al usuario y explica cómo se realizará la dinámica.
 * Incluye una ventana modal para ello.
 
-![Pantalla 1](src/img/Screen1.jpg)
+![Pantalla 1](src/img/S1.png)
 
 ### Pantalla cifrado/descifrado
 
