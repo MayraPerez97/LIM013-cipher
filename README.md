@@ -27,14 +27,14 @@
 * Introduce al usuario y explica cómo se realizará la dinámica.
 * Incluye una ventana modal para ello.
 
-![Pantalla 1](img/S1.png)
+![Pantalla 1](src/img/Screen1.jpg)
 
 ### Pantalla cifrado/descifrado
 
 * Solicita 2 datos necesarios para ejecutar el mensaje encriptado/desencriptado: offset y texto.
 * Adicionalmente, cuenta con un botón para borrar lo ingresado en el campo "ingrese su mensaje".
 
-![Pantalla 2](img/S2.png)
+![Pantalla 2](src/img/Screen2.png)
 
 ### Pantalla mensaje final
 
