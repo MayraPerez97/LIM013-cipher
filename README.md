@@ -41,7 +41,7 @@
 * Pantalla donde se imprime el mensaje final, es decir, encriptado o desencriptado.
 * Contiene un botón para copiar el mensaje final.
 
-![Pantalla 3](img/S3.png)
+![Pantalla 3](src/img/S3.png)
 
 ## 4. Investigación UX
 
