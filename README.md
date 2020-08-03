@@ -57,9 +57,3 @@ A través de un mensaje cifrado se puede expresar un sentimiento hacia alguien q
 * Feedback: inicialmente la idea no fue plasmada en papel; no obstante, a través de videollamada fue explicada a algunas compañeras, quienes fueron indicando si estaban de acuerdo o en desacuerdo, simultáneamente a ello me sugerían más ideas.
 
 * Sin embargo, se utilizó figma para esbozar el posible diseño de la página, las siguientes imágenes muestran este resultado:
-
-![Página Bienvenida](img/Screen1.svg)
-![Ventana modal](img/Overlay.svg)
-![Página Encriptar/desencriptar](img/Screen2.svg)
-
-
