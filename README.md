@@ -27,15 +27,21 @@
 * Introduce al usuario y explica cómo se realizará la dinámica.
 * Incluye una ventana modal para ello.
 
+![Pantalla 1](img/S1.png)
+
 ### Pantalla cifrado/descifrado
 
 * Solicita 2 datos necesarios para ejecutar el mensaje encriptado/desencriptado: offset y texto.
 * Adicionalmente, cuenta con un botón para borrar lo ingresado en el campo "ingrese su mensaje".
 
+![Pantalla 2](img/S2.png)
+
 ### Pantalla mensaje final
 
 * Pantalla donde se imprime el mensaje final, es decir, encriptado o desencriptado.
 * Contiene un botón para copiar el mensaje final.
+
+![Pantalla 3](img/S3.png)
 
 ## 4. Investigación UX
 
@@ -57,3 +63,7 @@ A través de un mensaje cifrado se puede expresar un sentimiento hacia alguien q
 * Feedback: inicialmente la idea no fue plasmada en papel; no obstante, a través de videollamada fue explicada a algunas compañeras, quienes fueron indicando si estaban de acuerdo o en desacuerdo, simultáneamente a ello me sugerían más ideas.
 
 * Sin embargo, se utilizó figma para esbozar el posible diseño de la página, las siguientes imágenes muestran este resultado:
+
+![Pantalla 1 Figma](img/Screen1.jpg)
+![Ventana modal Figma](img/Overlay.jpg)
+![Pantalla 2 Figma](img/Screen2.jpg)
